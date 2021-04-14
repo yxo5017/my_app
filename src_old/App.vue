@@ -1,16 +1,22 @@
 <template>
   <div id="app">
     <Counter/>
+    <DoubleCounter/>
+    <TotalCounter/>
   </div>
 </template>
 
 <script>
-import Counter from './components/Counter.vue'
+import Counter from './components/Counter'
+import DoubleCounter from './components/DoubleCounter'
+import TotalCounter from './components/TotalCounter'
 
 export default {
   name: 'app',
   components: {
-    Counter
+    Counter,
+    DoubleCounter,
+    TotalCounter
   }
 }
 </script>
